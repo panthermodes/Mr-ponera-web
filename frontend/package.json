@@ -1,0 +1,38 @@
+{
+  "name": "mr-ponera-frontend",
+  "version": "1.0.0",
+  "description": "MR PONERA - Premium Draw Betting Slips Platform",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "autoprefixer": "^10.5.0",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
+    "postcss": "^8.5.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.13"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
